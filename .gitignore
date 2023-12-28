@@ -1,0 +1,35 @@
+﻿# dotNet Build
+/.vs
+/**/bin
+/**/obj
+
+# Visual Studio files
+*.csproj.user
+
+# VS Code
+/**/.vscode/*
+
+# Don't ignore the settings file though, it has dictionary settings for cSpell
+!.vscode/settings.json
+
+# Debug/Local Dev
+/hosts/SourceData.Api/Properties/launchSettings.json
+/**/appsettings.*.json
+
+# Ignore Docker build items
+/out
+
+# Ignore test results
+/**/TestResults
+
+# Ignore local data
+/data
+
+# Ignore local secrets
+/secrets
+
+# Ignore local logs
+/**/logs
+
+# Ignore node_modules
+/**/node_modules
