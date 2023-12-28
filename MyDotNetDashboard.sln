@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9073F413-F40C-48B3-8C17-1D7593A1AB01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossDashboard", "src\CrossDashboard\CrossDashboard.csproj", "{3801ED34-84CC-4FCC-9735-0BD6BE832BAB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashLogic", "src\DashLogic\DashLogic.csproj", "{A8F34E83-D9D8-46C0-801A-97CE4F93D7E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashLogicTests", "src\DashLogicTests\DashLogicTests.csproj", "{1AB19158-C939-4E9D-A54D-CD92A6BFA7C3}"
@@ -20,10 +18,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3801ED34-84CC-4FCC-9735-0BD6BE832BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3801ED34-84CC-4FCC-9735-0BD6BE832BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3801ED34-84CC-4FCC-9735-0BD6BE832BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3801ED34-84CC-4FCC-9735-0BD6BE832BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A8F34E83-D9D8-46C0-801A-97CE4F93D7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A8F34E83-D9D8-46C0-801A-97CE4F93D7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8F34E83-D9D8-46C0-801A-97CE4F93D7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,7 +28,6 @@ Global
 		{1AB19158-C939-4E9D-A54D-CD92A6BFA7C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3801ED34-84CC-4FCC-9735-0BD6BE832BAB} = {9073F413-F40C-48B3-8C17-1D7593A1AB01}
 		{A8F34E83-D9D8-46C0-801A-97CE4F93D7E0} = {9073F413-F40C-48B3-8C17-1D7593A1AB01}
 		{1AB19158-C939-4E9D-A54D-CD92A6BFA7C3} = {9073F413-F40C-48B3-8C17-1D7593A1AB01}
 	EndGlobalSection
