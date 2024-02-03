@@ -1,0 +1,6 @@
+@CrossLinks_HostAddress = http://localhost:5255
+
+GET {{CrossLinks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
